@@ -11,24 +11,30 @@
     <header>
         
             <img src="https://www.w3.org/2008/site/images/logo-w3c-screen-lg.png " alt="logo" width="100" height="100>
-            <div id="links">
+             <div id="links">
               <ul>
                      <li><a href="https://code-basics.com/">code-basics</a></li>
                 <li><a href="/about">О нас</a></li>
               </ul>
              </div>
             
-             <nav> <!-- Меню -->
+             <nav> 
                   <ul>
                     <li><a href="/">Главная</a></li>
                     <li><a href="/about">О нас</a></li>
                     <li><a href="/contacts">Контакты</a></li>
                   </ul>
-                </nav>
+            </nav>
                          
                       
       </header>
       <main>
+        <section itemscope itemtype="http://schema.org/Organization">
+          <h1 itemprop="name">Company</h1>
+          <p>Email: <span itemprop="email">info@company-company.test</span></p>
+          <p>Адрес: <span itemprop="address">г.Мотино, улица Строителей, дом 6</span></p>
+  <p>Телефон: <span itemprop="telephone">8 (8765) 333-00-00</span></p>
+        </section>
         <h2>Second level</h2>
         <section>
           <h2>one</h2>
@@ -41,7 +47,14 @@
             <p>Описание новой услуги</p>
               </article>
         </section>
-        
+        <aside>
+          <nav>
+             <ul>
+             <li>Услуга 1</li>
+             <li>Услуга 2</li>
+             </ul>
+         </nav>
+       </aside> 
       </main>
    <link rel="stylesheet" href="style.css">
     <h1>title</h1>
@@ -100,7 +113,13 @@
                 <button>submit</button>
                 <br>
                   <footer>
-                    end
+                   
+                      <address>
+                        <p>name: Elena</p>
+                        <p>Email: elenagalkina@test.test</p>
+                      </address>
+                      <time datetime="2023-04-08">08 of April</time> 
+                   
                   </footer>
         </form>
      
