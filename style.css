@@ -13,3 +13,9 @@ header {
 footer {
     font-size: 20px; background-attachment: fixed; background-color: chartreuse;
 }
+
+.out-1{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+}
